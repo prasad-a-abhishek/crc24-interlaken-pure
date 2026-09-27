@@ -9,6 +9,10 @@ description = "Pure-Python CRC-24/Interlaken reference implementation, zero deps
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+bench = ["crcmod"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
