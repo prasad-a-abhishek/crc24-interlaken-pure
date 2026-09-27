@@ -1,0 +1,11 @@
+# Fuzzing runtime artifacts (regenerated on every ./run_all.sh invocation).
+logs/
+stats.json
+crash-*
+
+# Fuzzer venv (matches the repo-level .venv/ pattern).
+.venv-fuzz/
+
+# libFuzzer / atheris transient artefacts (coverage dictionaries, etc.).
+*.profdata
+*.profraw
