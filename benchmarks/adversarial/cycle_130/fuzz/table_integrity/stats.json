@@ -1,0 +1,11 @@
+{
+  "surface": "table_integrity",
+  "iters": 89230,
+  "elapsed_seconds": 6.02,
+  "crashes": 0,
+  "hangs": 0,
+  "oom": 0,
+  "oracle_mismatches": 0,
+  "exit_code": 0,
+  "verdict": "CLEAN"
+}

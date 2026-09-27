@@ -1,0 +1,78 @@
+{
+  "cycle": 130,
+  "surfaces_run": 6,
+  "iters_total": 392694,
+  "crash_count": 0,
+  "hang_count": 0,
+  "oom_count": 0,
+  "oracle_mismatch_count": 0,
+  "aggregate_verdict": "CLEAN",
+  "per_surface": [
+    {
+      "surface": "crc_main",
+      "iters": 41830,
+      "elapsed_seconds": 6.03,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    },
+    {
+      "surface": "engine_streaming",
+      "iters": 200000,
+      "elapsed_seconds": 0.18,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    },
+    {
+      "surface": "table_integrity",
+      "iters": 89230,
+      "elapsed_seconds": 6.02,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    },
+    {
+      "surface": "cli_args",
+      "iters": 315,
+      "elapsed_seconds": 6.07,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    },
+    {
+      "surface": "type_errors",
+      "iters": 39469,
+      "elapsed_seconds": 6.02,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    },
+    {
+      "surface": "cross_cycle_oracle",
+      "iters": 21850,
+      "elapsed_seconds": 6.02,
+      "crashes": 0,
+      "hangs": 0,
+      "oom": 0,
+      "oracle_mismatches": 0,
+      "exit_code": 0,
+      "verdict": "CLEAN"
+    }
+  ]
+}

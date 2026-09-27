@@ -1,0 +1,11 @@
+{
+  "surface": "engine_streaming",
+  "iters": 200000,
+  "elapsed_seconds": 0.18,
+  "crashes": 0,
+  "hangs": 0,
+  "oom": 0,
+  "oracle_mismatches": 0,
+  "exit_code": 0,
+  "verdict": "CLEAN"
+}

@@ -1,0 +1,17 @@
+INFO: Instrumenting crc24_interlaken
+INFO: Instrumenting crc24_interlaken._table
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 416959133
+INFO:       10 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/seed
+INFO:        4 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/table_integrity
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+INFO: seed corpus: files: 14 min: 1b max: 1048576b total: 1054261b rss: 39Mb
+#15	INITED cov: 15 ft: 15 corp: 1/1b exec/s: 0 rss: 43Mb
+#32768	pulse  cov: 15 ft: 15 corp: 1/1b lim: 325 exec/s: 16384 rss: 43Mb
+#65536	pulse  cov: 15 ft: 15 corp: 1/1b lim: 652 exec/s: 16384 rss: 43Mb
+#89230	DONE   cov: 15 ft: 15 corp: 1/1b lim: 886 exec/s: 14871 rss: 43Mb
+Done 89230 runs in 6 second(s)
