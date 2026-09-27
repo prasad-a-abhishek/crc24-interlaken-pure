@@ -1,0 +1,14 @@
+{
+  "algorithm": "crc24-interlaken",
+  "spec_authority": "Interlaken Protocol Definition v1.2 (Section 5.3.2.2 p.18; Appendix B p.48) via RevEng CRC Catalogue",
+  "reveng_entry": "width=24 poly=0x328B63 init=0xFFFFFF refin=false refout=false xorout=0xFFFFFF check=0xB4F3E6 residue=0x144E63",
+  "vectors": [
+    {"input_hex": "", "input_label": "zero-length", "output": "0x000000", "rationale": "init XORed with xorout = 0xFFFFFF ^ 0xFFFFFF = 0x000000"},
+    {"input_hex": "00", "input_label": "single 0x00 byte", "output": "0xDAF828"},
+    {"input_hex": "01", "input_label": "single 0x01 byte", "output": "0xE8734B"},
+    {"input_hex": "ff", "input_label": "single 0xFF byte", "output": "0x0000FF"},
+    {"input_hex": "31 32 33 34 35 36 37 38 39", "input_label": "9-byte ASCII '123456789'", "output": "0xB4F3E6", "rationale": "RevEng canonical check value"}
+  ],
+  "build_target_test_count": 100,
+  "ac_count": 12
+}
