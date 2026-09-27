@@ -12,6 +12,9 @@ dependencies = []
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[project.scripts]
+crc24-interlaken = "crc24_interlaken.__main__:main"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
