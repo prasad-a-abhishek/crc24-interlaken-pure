@@ -1,5 +1,7 @@
 """crc24-interlaken -- pure-Python CRC-24/Interlaken reference implementation."""
 
+from ._table import crc_table, precomputed_table
+
 __version__ = "0.1.0"
 
 _WIDTH = 24
