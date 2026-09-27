@@ -116,8 +116,7 @@ Each AC is testable from a fresh clone with `pytest -q` and must pass before the
 - **AC4 — single 0x01 byte:** `crc(bytes([0x01])) == 0xE8734B`.
 - **AC5 — single 0xFF byte:** `crc(bytes([0xFF])) == 0x0000FF`.
 - **AC6 — 10-byte ascending:** `crc(bytes(range(10))) == 0xDDCBC6`.
-- **AC7 — residue conformance:** appending `check` to the canonical input gives `residue`:
-  `crc(b"123456789" + b"\xb4\xf3\xe6") == 0x144E63`.
+- **AC7 — residue conformance:** the *unfinalised* CRC register state after processing `b"123456789" + b"\xb4\xf3\xe6"` equals `0x144E63` (RevEng residue = CRC state pre-xorout; this is the canonical RevEng convention for the `residue` field, not the post-xorout CRC of the augmented input).
 - **AC8 — width lock:** `crc(b"")` is masked to 24 bits (≤ `0xFFFFFF`).
 - **AC9 — polynomial lock:** `crc(b"\x00" * 3)` does not equal `crc(b"\x00" * 4)` (sensitivity to byte count).
 - **AC10 — deterministic:** `crc(data) == crc(data)` across 100 calls on the same data.
