@@ -5,17 +5,14 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 1358082647
-INFO:       10 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/seed
+INFO: Seed: 4137433736
+INFO:       12 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/seed
 INFO:       38 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/cross_cycle_oracle
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
-INFO: seed corpus: files: 48 min: 1b max: 1048576b total: 1057292b rss: 39Mb
-#49	INITED cov: 10 ft: 55 corp: 30/2783b exec/s: 49 rss: 43Mb
-#2048	pulse  cov: 10 ft: 55 corp: 30/2783b lim: 266 exec/s: 1024 rss: 43Mb
-#4096	pulse  cov: 10 ft: 55 corp: 30/2783b lim: 290 exec/s: 2048 rss: 43Mb
-#8192	pulse  cov: 10 ft: 55 corp: 30/2783b lim: 330 exec/s: 2730 rss: 43Mb
-#14889	REDUCE cov: 10 ft: 55 corp: 30/2782b lim: 394 exec/s: 3722 rss: 43Mb L: 51/251 MS: 5 CopyPart-EraseBytes-CopyPart-ChangeASCIIInt-ChangeBinInt-
-#16384	pulse  cov: 10 ft: 55 corp: 30/2782b lim: 402 exec/s: 4096 rss: 43Mb
-#20430	REDUCE cov: 10 ft: 55 corp: 30/2781b lim: 442 exec/s: 4086 rss: 43Mb L: 55/251 MS: 5 ChangeASCIIInt-ChangeBit-ChangeByte-ChangeByte-EraseBytes-
-#21850	DONE   cov: 10 ft: 55 corp: 30/2781b lim: 450 exec/s: 3641 rss: 43Mb
-Done 21850 runs in 6 second(s)
+INFO: seed corpus: files: 50 min: 1b max: 1048576b total: 1057398b rss: 39Mb
+#51	INITED cov: 10 ft: 55 corp: 30/2781b exec/s: 51 rss: 43Mb
+#4096	pulse  cov: 10 ft: 55 corp: 30/2781b lim: 290 exec/s: 2048 rss: 43Mb
+#8192	pulse  cov: 10 ft: 55 corp: 30/2781b lim: 330 exec/s: 2730 rss: 43Mb
+#16384	pulse  cov: 10 ft: 55 corp: 30/2781b lim: 410 exec/s: 4096 rss: 43Mb
+#23301	DONE   cov: 10 ft: 55 corp: 30/2781b lim: 482 exec/s: 3883 rss: 43Mb
+Done 23301 runs in 6 second(s)

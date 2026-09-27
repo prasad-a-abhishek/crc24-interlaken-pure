@@ -1,7 +1,7 @@
 {
   "surface": "table_integrity",
-  "iters": 89230,
-  "elapsed_seconds": 6.02,
+  "iters": 200000,
+  "elapsed_seconds": 5.03,
   "crashes": 0,
   "hangs": 0,
   "oom": 0,

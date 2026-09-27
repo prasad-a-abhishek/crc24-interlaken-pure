@@ -1,7 +1,7 @@
 {
   "cycle": 130,
   "surfaces_run": 6,
-  "iters_total": 392694,
+  "iters_total": 524923,
   "crash_count": 0,
   "hang_count": 0,
   "oom_count": 0,
@@ -10,7 +10,7 @@
   "per_surface": [
     {
       "surface": "crc_main",
-      "iters": 41830,
+      "iters": 60919,
       "elapsed_seconds": 6.03,
       "crashes": 0,
       "hangs": 0,
@@ -32,8 +32,8 @@
     },
     {
       "surface": "table_integrity",
-      "iters": 89230,
-      "elapsed_seconds": 6.02,
+      "iters": 200000,
+      "elapsed_seconds": 5.03,
       "crashes": 0,
       "hangs": 0,
       "oom": 0,
@@ -43,8 +43,8 @@
     },
     {
       "surface": "cli_args",
-      "iters": 315,
-      "elapsed_seconds": 6.07,
+      "iters": 302,
+      "elapsed_seconds": 6.03,
       "crashes": 0,
       "hangs": 0,
       "oom": 0,
@@ -54,7 +54,7 @@
     },
     {
       "surface": "type_errors",
-      "iters": 39469,
+      "iters": 40401,
       "elapsed_seconds": 6.02,
       "crashes": 0,
       "hangs": 0,
@@ -65,7 +65,7 @@
     },
     {
       "surface": "cross_cycle_oracle",
-      "iters": 21850,
+      "iters": 23301,
       "elapsed_seconds": 6.02,
       "crashes": 0,
       "hangs": 0,

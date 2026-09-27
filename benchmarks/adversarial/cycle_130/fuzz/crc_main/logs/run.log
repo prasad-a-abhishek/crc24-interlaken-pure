@@ -5,14 +5,13 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2802511760
-INFO:        9 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/seed
+INFO: Seed: 2332543564
+INFO:       12 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/seed
 INFO:       46 files found in /root/projects/crc24-interlaken-pure/.worktrees/t_cycle130-adversary-01/benchmarks/adversarial/cycle_130/fuzz/corpus/crc_main
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
-INFO: seed corpus: files: 55 min: 1b max: 1048576b total: 1055574b rss: 39Mb
-#56	INITED cov: 14 ft: 73 corp: 25/930b exec/s: 56 rss: 43Mb
-#16029	REDUCE cov: 14 ft: 73 corp: 25/929b lim: 408 exec/s: 8014 rss: 43Mb L: 28/256 MS: 3 ChangeBit-EraseBytes-InsertByte-
-#16384	pulse  cov: 14 ft: 73 corp: 25/929b lim: 408 exec/s: 8192 rss: 43Mb
-#32768	pulse  cov: 14 ft: 73 corp: 25/929b lim: 566 exec/s: 6553 rss: 44Mb
-#41830	DONE   cov: 14 ft: 73 corp: 25/929b lim: 656 exec/s: 6971 rss: 44Mb
-Done 41830 runs in 6 second(s)
+INFO: seed corpus: files: 58 min: 1b max: 1048576b total: 1055708b rss: 39Mb
+#59	INITED cov: 14 ft: 73 corp: 25/929b exec/s: 59 rss: 43Mb
+#16384	pulse  cov: 14 ft: 73 corp: 25/929b lim: 416 exec/s: 8192 rss: 43Mb
+#32768	pulse  cov: 14 ft: 73 corp: 25/929b lim: 575 exec/s: 10922 rss: 43Mb
+#60919	DONE   cov: 14 ft: 73 corp: 25/929b lim: 854 exec/s: 10153 rss: 43Mb
+Done 60919 runs in 6 second(s)
